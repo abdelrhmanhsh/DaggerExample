@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dagger Retrofit</string>
+
+    <string name="id">id</string>
+    <string name="email">email</string>
+    <string name="name">name</string>
+    <string name="school">school</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="logout">Logout</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+</resources>

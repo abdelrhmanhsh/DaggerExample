@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_profile"
+            android:title="@string/update_profile" />
+
+        <item android:id="@+id/nav_posts"
+            android:title="@string/change_password" />
+
+        <item android:id="@+id/nav_delete"
+            android:title="@string/delete_account" />
+
+    </group>
+</menu>
