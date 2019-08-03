@@ -16,11 +16,7 @@
         android:name="com.abdelrahmman.daggerretrofit.ui.profile.change.ChangePasswordFragment"
         android:label="@string/change_password"
         tools:layout="@layout/fragment_change_password">
-        <action
-            android:id="@+id/action_changePasswordScreen_to_deleteAccountScreen"
-            app:destination="@id/deleteAccountScreen"
-            app:popUpTo="@+id/changePasswordScreen"
-            app:popUpToInclusive="true" />
+        
     </fragment>
 
     <fragment
@@ -28,11 +24,7 @@
         android:name="com.abdelrahmman.daggerretrofit.ui.profile.delete.DeleteAccountFragment"
         android:label="@string/delete_account"
         tools:layout="@layout/fragment_delete_account">
-        <action
-            android:id="@+id/action_deleteAccountScreen_to_changePasswordScreen"
-            app:destination="@id/changePasswordScreen"
-            app:popUpTo="@+id/deleteAccountScreen"
-            app:popUpToInclusive="true" />
+
     </fragment>
 
 </navigation>
